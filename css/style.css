@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap');
+
+body{
+    background-color: rgb(60, 173, 94);
+    
+}
+header{
+    background-color: red;
+    width: 100%;
+}
+header p{
+    font-family: 'Grenze Gotisch', cursive;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mise{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: fit-content;
+    margin: 2em;
+    
+}
+
+#choix{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-top: 2em ridge red ;
+}
+#choix h2{
+    margin: 3em;
+}
+button{
+    background-color: red;
+    margin: 1em;
+}
